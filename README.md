@@ -33,8 +33,7 @@ a meaningful score, evaluation summary, and personalized improvement roadmap.
 
 ## Sample Output
 ![Sample Output](output.png)
-Score: 78 / 100  
-Summary: Decent project but needs improvements.  
+
 
 Roadmap:
 - Add README
