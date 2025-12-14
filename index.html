@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitGrade - Repository Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>GitGrade</h1>
+    <p>AI-powered GitHub Repository Evaluation</p>
+
+    <input type="text" id="repoUrl" placeholder="Enter GitHub Repository URL">
+    <button onclick="analyzeRepo()">Analyze</button>
+
+    <div id="result" class="hidden">
+        <h2>Evaluation Result</h2>
+        <p><strong>Score:</strong> <span id="score"></span></p>
+        <p><strong>Summary:</strong> <span id="summary"></span></p>
+
+        <h3>Personalized Roadmap</h3>
+        <ul id="roadmap"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
